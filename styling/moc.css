@@ -1,0 +1,97 @@
+body{
+    background: #f5d9d5;
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainNav
+{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .navbar-brand
+{
+    color: #EA1C2C;
+    font-weight: 400;
+}
+
+#mainNav .nav-link:hover
+{
+     color: #EA1C2C;
+}
+
+#mainNav .nav-link
+{
+   font-weight: 100;
+   color: white;
+}
+
+#mocLabel span
+{
+    color: #EA1C2C;
+}
+
+#mocLabel
+{
+    font-weight:100;
+    font-size: 3rem;
+}
+
+@media (max-width: 1200px)
+{
+ #mocLabel
+{
+    font-weight:100;
+    font-size: 2.5rem;
+}
+}
+
+
+.invert { filter: invert(100%); }
+
+/*.lolli:hover
+{
+    .sepia { filter: sepia(100%); }
+}*/
+
+.secText #secThead
+{
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.secText #secTcont
+{
+   color: #ff8a9a;
+   font-weight: 100;
+   font-size: 1.125rem;
+   line-height: 1.5;
+}
+
+@media (max-width: 850px)
+{
+    .secText #secThead
+{
+   font-weight: 100;
+   font-size: 2rem;
+}
+
+.secText #secTcont
+{
+   font-weight: 100;
+   font-size: 1rem;
+   line-height: 1.5;
+}
+}
+
+.portions
+{
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled
+{
+    background: #D67FFF74;
+    transition: background 500ms;
+}
